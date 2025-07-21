@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<title>Ueber Mich</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	<body class="container">
+	<header class="header">
+		<input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+		<label for="hamburger-toggle" class="hamburger">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</label>
+
+		<nav class="navbar">
+			<a href="index.html" class="navitem">HOME</a>
+			<a href="uebermich.html" class="navitem active">ÜBER MICH</a>
+			<a href="news.html" class="navitem">NEWS</a>
+			<a href="kontakt.html" class="navitem">KONTAKT</a>
+		</nav>
+		<h1 class="header_logo">DOMINIC MÜLLER</h1>
+	</header>
+		<main class="mainÜberMich">
+        	<section class="ÜberMich">
+				<picture>
+					<source srcset="../docs/MeRunning.JPG" media="(max-width: 480px)">
+					<source srcset=../docs/mediumMeRunning.JPG media="(max-width: 768px)">
+					<img class="PictureÜberMich" src="../docs/MeRunning.JPG" alt="MeRunnng">
+				</picture>
+				<article class="articleÜberMich">
+					<h2 class="titleÜberMich">Über mich:</h2>
+					<p class="TextÜberMich">Grösste Erfolge:</p>
+					<ul class="TextÜberMich">
+						<li>5. Platz, Junioren WM Mitteldistanz 2023</li>
+						<li>9.Platz, Junioren WM Sprint 2023</li>
+						<li>1. Platz, Länderkampf Mitteldistanz 2023</li>
+						<li>1. Platz, Studenten WM Staffel 2024</li>
+						<li>7. Platz, 3. Nationaler OL 2024</li>
+					</ul>
+					<p class="TextÜberMich">Mitglied des Nationalkader U25</p>
+				</article>
+			</section>
+			<section class="Testimonial">
+				<div style="position: relative; display: inline-block;">
+					<img id="testimonial-avatar" class="BildTestimonial" src="" alt="Testimonial" />
+					<div id="arrow" class="arrow-right"> </div>
+					<div id="arrow-left" class="arrow-left"></div>
+				</div>
+				<ul class="AboutTestimonial">
+					<h1 id="testimonial-name"></h1>
+					<h3 id="testimonial-company"></h3>
+				</ul>
+				<section class="likeSection">
+					<img src="../docs/unliked.png" alt="likeButton" class="like" id="likeButton">
+					<p class="likeCount" id="likeCount">0</p>
+				</section>
+				<em id="testimonial-quote" class="Cite"></em>
+			</section>
+        </main>
+		<footer class="footer">
+			<h1 class="footer-logo">DOMINIC MÜLLER</h1>
+			<section class="footer-nav">
+				<a href="https://www.instagram.com/dominic.mueller/" ><img class="footer-icon" src="../docs/instagram.png" alt="Insta Bild"></a>
+				<a href="kontakt.html" ><img class="footer-icon" src="../docs/gmail.png" alt="Kontakt Bild"></a>
+				<a href="https://www.facebook.com/dominic.muller.123276?locale=de_DE" ><img class="footer-icon" src="../docs/facebook.png" alt="Facebook Bild"></a>
+			</section>
+		</footer>
+		<script src="js/testimonials.js"></script>
+	</body>
+</html>
